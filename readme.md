@@ -55,7 +55,7 @@ Besides, it has the following member functions.
   ```c++
   Student (long id, double hw, double mid_proj, double mid_exam, double party=50);
   ```
-  **Note**: All the data except the homework grades (which are real grades) are generated randomly! So don't be happy!
+  **Note**: All the data except the homework grades (which are real grades) are generated randomly! So don't get excited!
 
 This constructor gets all informations of a student and creates it's object.
 
@@ -163,12 +163,14 @@ Your APDS class must have the following member variables.
 
 and the following constructor.
         
-      *
+  *
       ```c++
       Item(Student&)
       ```
 
-  *  **Question**: Why it isn't possible to pass the Student object be value to the constructor? Explain.
+  *  **Question1**: Why it isn't possible to pass the Student object by value to the constructor? Explain.
+
+Other member functions of the APDS class are presented below.
 
 * 
   ```c++
@@ -237,7 +239,9 @@ This function must start from the first student (head), the one with the maximum
   ```
 This function must display our data structure in a beautiful way like the below figure.
 
-  **Question**: 
+<img src="stuff/hw4p3.png" width="600" class="center" />
+
+  **Question2**: 
 Does this function support the following code block? If no, what should you do to solve it without changing the argument type? Do it!
   
   ```c++
@@ -263,7 +267,7 @@ This function changes the capacity of our data structure. In case of the new cap
   ```
 This function, easily, changes the data structure name variable to ```s```.
 
-  **Question**: Since name is very important to us, we need your code to be ok with the following code block. Explain what's the problem and what changes should we do to make this code ok.
+  **Question3**: Since name is very important to us, we need your code to be ok with the following code block. Explain what's the problem and what changes should we do to make this code ok.
   
   ```c++
     const APContainer ap{apstudents};
@@ -273,3 +277,27 @@ This function, easily, changes the data structure name variable to ```s```.
 
 
 * You must also implement the **[ ]** operator for our data structure so that if, for example, ```a``` is an object of our **APDS** class, ```a[0]``` returns a reference to the first student (head) of ```a``` and so on. This operator must also support negative indexing. So ```a[-1]``` must return a reference to the last student (tail) of ```a``` and ```a[-2]``` returns a reference to the one before the last student of ```a```. In the case that the indexing goes out of the students of the data structure, it must creat a new student object with all informations set to zero and return a reference to that one. So for example, if ```a``` has 8 students, ```a[8]``` and ```a[-9]``` must return a student with all the informations set to zero.
+
+# Other Functions
+
+Nothing special from now on. Just some other functions. In the **aphw4.h** and **aphw4.cpp** implement the following functions.
+
+*
+  ```c++
+  std::vector<Student> getData(const char* filename);
+  ```
+This functions gets a csv filename and makes a vector of Student by converting each row of the file to a Student object. No need to mention that it must work with any number of students inside the file.
+
+* 
+  ```c++
+  void show(std::vector<Student> student);
+  ```
+This function displays all students inside a vector in a beautiful manner like the below figure.
+
+*
+  ```c++
+  void show(const APDS& ap);
+  ```
+This function shows properties of an APDS object, containing its size, capacity, head student and tail student like the bellow figure.
+
+  **Question4**: As you know, this function is defined outside the class and it needs informations like the capacity and the size of the class which are defined *private*! Without use of functions like *getter* functions, how do you access these private variables?
