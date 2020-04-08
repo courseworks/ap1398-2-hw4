@@ -72,7 +72,7 @@ This constructor gets all informations of a student and creates it's object.
 
 *
   ```c++
-  void setHomework{};
+  void setHomework();
   ```
 
 *
