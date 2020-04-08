@@ -121,6 +121,7 @@ This function determines the likelihood of a student to take the exam, called va
   ```
 This function displays informations of a student in a beautiful way like below.
 
+<img src="stuff/hw4f1.png" width="600" class="center" />
 
 *  The following code must work just like the **show()** method you implemented in the last part.
 
