@@ -167,7 +167,7 @@ Your APDS class must have the following member variables.
 and the following constructor.
         
   *
-      ```c++
+      ```
       Item(Student&)
       ```
 
@@ -199,6 +199,7 @@ This variable tells us how many students do we have currently in our data struct
   size_t capacity;
   ```
 This variable tells us the capacity of our data structure. In other words, it tell us the maximum number of students we can have in our data structure. Its value must be 3 by default.
+
 *
   ```c++
   std::string name{"AP Data Structure"};
