@@ -51,6 +51,7 @@ Representing the student's midterm exam grade. (private)
 Representing the student's amount of friendship with the TAs! (very private :-))
 
 Besides, it has the following member functions.
+
 *
   ```c++
   Student (long id, double hw, double mid_proj, double mid_exam, double party=50);
