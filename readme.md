@@ -173,7 +173,7 @@ and the following constructor.
 
   *  **Question1**: Why it isn't possible to pass the Student object by value to the constructor? Explain.
 
-Other member functions of the APDS class are presented below.
+Other member variables and functions of the APDS class are presented below.
 
 * 
   ```c++
