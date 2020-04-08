@@ -243,7 +243,7 @@ This function must start from the first student (head), the one with the maximum
   ```
 This function must display our data structure in a beautiful way like the below figure.
 
-<img src="stuff/hw4p3.png" width="600" class="center" />
+<img src="stuff/hw4p3.png" width="900" class="center" />
 
   **Question2**: 
 Does this function support the following code block? If no, what should you do to solve it without changing the argument type? Do it!
@@ -306,4 +306,4 @@ This function shows properties of an APDS object, containing its size, capacity,
 
   **Question4**: As you know, this function is defined outside the class and it needs informations like the capacity and the size of the class which are defined *private*! Without use of functions like *getter* functions, how do you access these private variables?
 
-<img src="stuff/meme3.png" width="400" class="center" />
+<img src="stuff/meme3.png" width="600" class="center" />
