@@ -146,28 +146,30 @@ Your APDS class must have the following member variables.
 
 *  **Item**: This is a class, defined and implemented in the private part of APDS class. It has the following member variables.
 
-  *
-    ```c++
-    Student* ps
-    ```
-  
-  * 
-    ```c++
-    Item* pnext
-    ```
-  
-  * 
-    ```c++
-    Item* pprev
-    ```
+    *
+      ```c++
+      Student* ps
+      ```
+
+    * 
+      ```c++
+      Item* pnext
+      ```
+
+    * 
+      ```c++
+      Item* pprev
+      ```
 
 and the following constructor.
-  *
-    ```c++
-    Item(Student&)
-    ```
+  
+    *
+      ```c++
+      Item(Student&)
+      ```
 
     *  **Question**: Why it isn't possible to pass the Student object be value to the constructor? Explain.
+
 * 
   ```c++
   Item* phead;
