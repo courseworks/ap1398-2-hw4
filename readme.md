@@ -162,13 +162,13 @@ Your APDS class must have the following member variables.
       ```
 
 and the following constructor.
-  
-    *
+        
+      *
       ```c++
       Item(Student&)
       ```
 
-    *  **Question**: Why it isn't possible to pass the Student object be value to the constructor? Explain.
+  *  **Question**: Why it isn't possible to pass the Student object be value to the constructor? Explain.
 
 * 
   ```c++
