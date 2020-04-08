@@ -131,6 +131,8 @@ This function displays informations of a student in a beautiful way like below.
   std::cout << student << std::endl;
   ```
   
+<img src="stuff/meme2.jpg" width="400" class="center" />
+  
 #  APDS Class
 This class represents our exclusive data structure, AP Data Structure. We have reached to the conclusion that it's better to be a **Priority Doubly Circular Linked List** with some changes for the sake of AP of course! 
 
@@ -301,3 +303,5 @@ This function displays all students inside a vector in a beautiful manner like t
 This function shows properties of an APDS object, containing its size, capacity, head student and tail student like the bellow figure.
 
   **Question4**: As you know, this function is defined outside the class and it needs informations like the capacity and the size of the class which are defined *private*! Without use of functions like *getter* functions, how do you access these private variables?
+
+<img src="stuff/meme3.png" width="400" class="center" />
