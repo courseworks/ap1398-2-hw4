@@ -62,7 +62,7 @@ This constructor gets all informations of a student and creates it's object.
 
 *
   ```c++
-  void setID();
+  void setID(long id);
   ```
 
 *
@@ -72,47 +72,47 @@ This constructor gets all informations of a student and creates it's object.
 
 *
   ```c++
-  void setHomework();
+  void setHomework(double hw);
   ```
 
 *
   ```c++
-  long getHomework();
+  double getHomework();
   ```
 
 *
   ```c++
-  void setMidtermProject();
+  void setMidtermProject(double project);
   ```
 
 *
   ```c++
-  long getMidtermProject();
+  double getMidtermProject();
   ```
 
 *
   ```c++
-  void setMidtermExam();
+  void setMidtermExam(double exam);
   ```
 
 *
   ```c++
-  long getMidtermExam();
+  double getMidtermExam();
   ```
 
 *
   ```c++
-  void setParty();
+  void setParty(double party);
   ```
 
 *
   ```c++
-  void getParty();
+  double getParty();
   ```
 
 *
   ```c++
-  long value();
+  double value();
   ```
 This function determines the likelihood of a student to take the exam, called value. This quantity is measured from the below formula.
 
