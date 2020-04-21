@@ -274,7 +274,7 @@ This function, easily, changes the data structure name variable to ```s```.
   **Question3**: Since name is very important to us, we need your code to be ok with the following code block. Explain what's the problem and what changes should we do to make this code ok.
   
   ```c++
-    const APContainer ap{apstudents};
+    const APDS ap{apstudents};
     ap.setName("AP1398");
     show(ap);
   ```
