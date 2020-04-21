@@ -18,8 +18,8 @@ TEST(APHW4Test, APDSTest)
     Student a{9423013, 80, 95, 90};
     Student b{9423091, 100, 100, 100, 100};
     APDS apds;
-    apds.pushBack(a);
-    apds.pushBack(b);
+    apds.push(a);
+    apds.push(b);
     EXPECT_EQ(2, apds.getSize());
     EXPECT_EQ(3, apds.getCapacity());
 }
